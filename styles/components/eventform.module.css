@@ -1,0 +1,35 @@
+.title{
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.titleinput , .descinput{
+    padding: 2px 5px;
+    border-style: none;
+    border-bottom: 1px solid black;
+    width: 50%;
+}
+
+.descinput{
+    margin-top: 20px;
+}
+
+.form label{
+    font-size: small;
+}
+
+.form button{
+    padding: 5px 10px;
+    font-size: small;
+    background-color: black;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,54 @@
+.masterContainer{
+    background-color: gray;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.container button{
+    margin: 0 10px;
+}
+
+.events{
+    padding: 5px 10px;
+    font-size: medium;
+    background: transparent;
+    border-style: none;
+    font-weight: bold;
+}
+
+.events:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.addEvent{
+    border-radius: 50%;
+    border-style: none;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 3px 12px;
+    padding-bottom: 7.5px;
+    background-color: transparent;
+}
+
+.addEvent:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.title:hover{
+    cursor: pointer;
+}
