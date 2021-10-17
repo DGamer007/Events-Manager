@@ -1,1 +1,14 @@
-[{"title":"Event 2","desc":"Desc 2","isFeatured":false,"id":"4a5256e2-1602-4221-85fa-ae0cec8aed60"},{"title":"Event 3","desc":"desc 1","isFeatured":false,"id":"e3627987-fdbd-4043-af6c-99065a4df879"},{"title":"Event 4","desc":"Desc 4","isFeatured":false,"id":"6b791715-1c47-4d95-848b-d2d4726abc97"}]
+[
+    {
+        "title": "Event 1",
+        "desc": "Something Something 1 time something",
+        "isFeatured": true,
+        "id": "1ef1d5e1-5890-4df0-aa96-fe1d812d2de8"
+    },
+    {
+        "title": "Event 2",
+        "desc": "Something Something 2 time something",
+        "isFeatured": false,
+        "id": "bc688370-4db6-48ff-8ad7-e7b6a0194b9e"
+    }
+]

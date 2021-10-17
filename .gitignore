@@ -35,3 +35,4 @@ yarn-error.log*
 
 #developer-testings
 /testings
+/store/store.json

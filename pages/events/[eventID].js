@@ -10,6 +10,8 @@ const EventPage = () => {
     const [event, setEvent] = useState()
 
     useEffect(() => {
+        if (!router.isReady) return;
+
         (async () => {
             const res = await axios.post('/api/getevent', { eventID })
 
@@ -20,7 +22,7 @@ const EventPage = () => {
 
             console.log(res.status)
         })()
-    }, [])
+    }, [router.isReady])
 
     const removeEventHandler = async () => {
         const res = await axios.post('/api/removeevent', { eventID })

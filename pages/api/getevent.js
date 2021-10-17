@@ -4,7 +4,6 @@ const getEvent = (req, res) => {
     try {
         if (req.method === 'POST') {
             const data = fetchEvent(req.body.eventID)
-
             res.send(data)
         }
     } catch (error) {
