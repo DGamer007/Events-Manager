@@ -4,7 +4,18 @@ const path = require('path')
 const fs = require('fs')
 
 const readData = () => {
-    const data = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'store', 'store.json')))
+
+    const location = path.join(process.cwd(), 'store', 'store.json')
+    let data = []
+
+    if (fs.existsSync(location)) {
+        const rawData = fs.readFileSync(location)
+        data = JSON.parse(rawData)
+
+        return data
+    }
+
+    fs.writeFileSync(location, JSON.stringify(data))
     return data
 }
 
